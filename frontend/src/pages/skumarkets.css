@@ -1,0 +1,36 @@
+.skumarkets {
+  padding-top: 120px;
+  margin-bottom: 500px;
+  text-align: center;
+}
+
+.class-button-custom {
+  background-color: #fff;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-weight: 600 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+}
+
+.accordion-button:focus {
+  border-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.icon-right-custom {
+  margin-right: 10px;
+}
+.paddingSwitch {
+  padding: 12px 28px 12px 28px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* ----------------- */
+td.table-extra.product-chart {
+  padding: 0 !important;
+}
+.text_bold {
+  font-weight: 700 !important;
+}
