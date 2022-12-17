@@ -1,0 +1,630 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none !important;
+	color: #000 !important;
+}
+li{
+	list-style: none;
+}
+ul{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body{
+	font-family: Nunito,sans-serif !important;
+	margin: 0 auto !important;
+  background: #6c757d;
+}
+img{
+  vertical-align: middle;
+  text-align: center;
+}
+.product-logo{
+  width: 70px;
+  height: 70px;
+}
+/*span{
+  color: #6C757D;
+}*/
+a{
+  color: #2562FF !important;
+  font-size: 10px;
+}
+.section-padding{
+  padding: 20px 30px;
+}
+.text-green{
+  color: green !important;
+}
+.text-bold{
+  font-weight: bold;
+}
+.table-font{
+  font-size: 10px;
+  line-height: 12px !important;
+  display: block;
+}
+.table-extra{
+  text-align: center;
+  padding-top: 2% !important;
+}
+.table-heading{
+  text-align: center;
+}
+.rate-red{
+  color: red !important;
+}
+.rate-blue{
+  color: #0052FF !important;
+}
+.rate-green{
+  color: green !important;
+}
+.info-icon{
+  color: #000;
+  opacity: 0.4;
+}
+.table-title{
+  font-size: 12px;
+}
+.title-size{
+  font-size: 13px;
+}
+
+/*.estimated-menu{
+  margin-top: 20px !important;
+}*/
+.section-padding{
+  padding: 20px 30px;
+}
+.table-footer{
+  font-size: 12px;
+  margin-top: 10px !important;
+}
+
+
+.container-width{
+  margin: 20px 50px;
+}
+.header-top-line{
+  font-size: 12px !important;
+}
+
+/* top icon bar css start here */
+
+.dropdown-toggle::after{
+	display: none;
+}
+.top-icon-bar{
+	height: auto;
+	box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+	background: white;
+}
+
+.suscribe{
+	display: flex !important;
+	align-items: center;
+
+}
+.container-width{
+	margin: 20px 50px;
+}
+
+/* top icon bar css start here */
+
+/*Menu section*/
+
+.amdlogo{
+  width: 210px;
+  height: 60px;
+}
+.amd-menubox{
+  margin-left: 07%;
+}
+.amd-menu{
+  padding-left: 10% !important;
+}
+.background{
+  background: #fff;
+}
+
+.amd-menu li a{
+  color: #6c757d !important;
+}
+
+.amd-menu li:hover a{
+  color: #1562FF !important;
+}
+
+.user-icon{
+  background: #727CF5 !important;
+  color: white !important;
+}
+
+/*dropdown menu start here*/
+
+
+.login-icon{
+  background: #1562FF !important;
+  color: white !important;
+  padding: 8px;
+  border-radius: 15px;
+}
+.login-icon:hover{
+  background: #6C757D !important;
+}
+.users-style{
+  display: flex;
+  align-items: center;
+  margin-top: 10px !important;
+  padding-left: 5px !important;
+}
+.nav-user {
+    padding: calc(34px * .5) 20px calc(31px * .5) 27px!important;
+}
+.nav-user{
+  background: #fff !important;
+}
+/*hero section*/
+
+
+
+
+
+
+/*marquee css start here */
+
+
+.ticker{
+  display: flex;
+  flex-wrap: wrap;
+  height: 35px;
+  margin: 0 auto;
+  border-top: 1px solid #E0E3EB;
+  border-bottom: 1px solid #E0E3EB;
+  border-right: 1px solid #E0E3EB;
+  position: relative;
+  transition: width 2s;
+  overflow: hidden;
+}
+.marquee-select{
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  content: "";
+  transition: background 0.3s cubic-bezier(0.4, 0.01, 0.22, 1) 1s;
+  
+}
+.sku-m{
+  display: none;
+  padding: 0px 15px;
+  background: #0052FF;
+  transition: 2s;
+  border-radius: 7px 0px 0px 7px;
+  color: #fff;
+  transition: 3s;
+}
+.sku-m a{
+  color: white !important;
+}
+.sku-m i{
+  padding-right: 10px;
+}
+.marquee-select:hover .sku-m{
+  color: #fff !important;
+  display: block;
+  transition: 2s;
+  transition-delay:1s;
+  transition-duration: 0.5s;
+}
+.marquee-select:hover .marquee-i{
+  display: none;
+}
+.marquee-i{
+  box-shadow: 0 0 5px gray;
+  padding: 3px 8px;
+  background: #fff;
+  border-radius: 7px 0px 0px 7px;
+
+}
+
+
+
+.news{
+  background: #fff;
+  padding: 0;
+}
+
+.news marquee{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.news-content p{
+  margin-right: 20px;
+  margin-left: 10px;
+  display: inline;
+}
+.marquee-items{
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+  border-right: 1px solid E0E3EB;
+}
+
+.marquee-4 p{
+  font-weight: bold;
+  color: #000;
+}
+.marquee-3 p{
+  color: red;
+  border-right: 1px solid gray;
+  padding-right: 35px !important;
+}
+
+
+/*marquee css end here */
+
+
+
+
+
+/*alert css start here*/
+
+.alert-hero{
+  height: auto;
+  color: #6C757D;
+}
+
+.alert-hero-left{
+  border-radius: 15px;
+  font-size: 10px !important;
+}
+
+
+.alert-hero-right{
+  height: px;
+  box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+  border-radius: 5px;
+  font-size: 10px !important;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0,0,0,.125);
+  padding-bottom: 36px;
+}
+
+.card-body{
+  font-size: 10px !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.alert-hero span{
+  background: none !important;
+}
+.avatar-title img{
+  margin-top: 35px;
+}
+.avatar-title{
+  background: none !important;
+}
+.add-card{
+  box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+  height: 158px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.125);
+  padding-top: 40px;
+
+}
+
+/*Multi Line Css Start Here..........................................................*/
+.multi-padding{
+  padding-bottom: 43px !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #0d6efd;
+}
+.alert-table-right{
+  margin-top: 20px;
+}
+.watch-right img{
+  margin-bottom: 5px;
+}
+
+.watch-right-rate{
+  color: #6C757D;
+}
+/*.add-sku{
+  box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+  height: auto;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border: 1px solid rgba(0,0,0,.125);
+}*/
+.add-sku {
+    box-shadow: 0px 0px 35px 0px rgb(154 161 171 / 15%);
+    height: 156px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*Multi Line Css end Here*/
+
+
+
+
+
+/*2nd alert and watch section start here*/
+
+.product-line-main{
+  height: auto;
+  color: #6C757D;
+}
+
+
+/*2nd alert and watch section end here...........................................*/
+
+
+
+
+
+
+
+/*Market Insights  section end here.........................................*/
+
+.analysis-main{
+  height: auto;
+  color: #6C757D !important;
+}
+.table-header-right{
+  display: flex;
+  justify-content: right;
+  color: #6C757D !important;
+}
+.table-header-left span{
+  padding-left: 24px;
+}
+.table-header-right > div{
+  background: #F2F2F2;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.table-footer{
+  color: #6C757D !important;
+}
+
+.table-footer-left {
+  padding-left: 24px;
+}
+.table-footer-left{
+  padding-left: 24px !important;
+}
+.table-footer-right{
+  text-align: right;
+  padding-right: 20px;
+
+}
+.table-footer-right a{
+  color: #6C757D !important;
+  font-weight: bold;
+}
+.table-footer-left{
+  display: flex;
+  align-items: center;
+}
+.analysis-right{
+  font-size: 10px;
+  padding-bottom: 7px; 
+}
+
+
+/*Market Insights  section end here.........................................*/
+
+
+
+
+/*watch modal css start here*/
+
+.watch-modal{
+  position: relative;
+}
+
+#myDIV{
+  position: absolute;
+  display: none;
+  top: 30px;
+  left: 70px;
+  background: white;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  z-index: 999;
+  box-shadow: 0 0 5px gray;
+}
+.new-watch-modal input{
+    padding: 8px;
+    width: 100% !important;
+    border-color: darkgray;
+    border: 1px solid darkgray;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.watch-modal-down{
+  text-align: left;
+  padding: 8px;
+
+}
+.watch-modal > i{
+  cursor: pointer;
+}
+.alert-bell i:hover{
+  color: #0052FF;
+  transform: scale(1.1);
+}
+.watch-modal > i:hover{
+  color: #0052FF;
+  transform: scale(1.1);
+}
+.watch-modal-down h6{
+  font-size: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid darkgray;
+  color: #6C757D;
+}
+.add-watch{
+  color: #0052FF;
+}
+.add-watch span:hover{
+  color: #0052FF;
+  cursor: pointer;
+}
+
+.modal-header h4{
+  color: #6c757d !important;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/*filter css start from here*/
+
+.modal-title{
+  font-size: 15px;
+}
+
+.modal-body{
+  color: #6c757d !important;
+}
+.modal-0{
+  font-size: 13px !important;
+}
+@media (min-width: 576px){}
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+}
+.modal-dialog {
+  max-width: 700px !important;
+}
+
+.common-modal {
+    width: 90%;
+    color: #6c757d;
+    border-color: #EFF2F5;
+    background: #EFF2F5;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-1{
+  padding-top: 2%;
+  font-size: 13px !important;
+}
+.modal-footer button{
+  font-size: 12px;
+}
+
+.new-watch-modal input{
+    padding: 8px;
+    width: 100% !important;
+    border-color: darkgray;
+    border: 1px solid darkgray;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+
+
+
+/*top ranked table css start here......................................*/
+
+.product-chart img{
+  width: 80px;
+  height: 30px;
+  padding-top: 0% !important;
+}
+
+/*Top ranked categories css start here*/
+
+.rank-table-extra{
+  text-align: center;
+  padding-top: 1% !important;
+
+}
+
+
+/* footer css start here.................*/
+
+.footer-main{
+  background: white !important;
+  color: #6c757d !important;
+  height: auto;
+  box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+}
+
+
+.foot-menu a{
+  color: #6c757d !important;
+  font-size: 16px;
+}
+.foot-menu a:hover{
+  color: #0052FF !important;
+}
+.footer-padding{
+  padding: 5px 25px;
+}
+
+
+
+.dash-Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.dash-card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.rateFont {
+    font-size: 12px !important;
+
+}
+.heroLeft {
+    width: 70%;
+}
+.heroRight {
+    width: 24%;
+}

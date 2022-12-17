@@ -1,0 +1,361 @@
+
+  
+
+  /*watchlist top css start here*/
+  .Watchlist-top{
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .watchlist-main .card{
+    margin-bottom: 0px !important;
+  }
+  
+  .watchlist-bottom{
+    padding: 15px;
+  }
+  .rate-btn{
+    font-size: 8px !important;
+    background: #0052FF;
+    padding: 3px;
+    color: white !important;
+    border-radius: 5px;
+  }
+  .rate-down i{
+    transform: rotate(60deg);
+  }
+  
+  .rate-up i{
+    transform: rotate(300deg);
+  }
+  
+  .watch-chart{
+    margin-left: -20px;
+  }
+  .watch-rate{
+    padding-top: 10px;
+  }
+  .progress {
+      display: flex;
+      height: 8px !important;
+      overflow: hidden;
+      font-size: .75rem;
+      background-color: red !important;
+      border-radius: 0.25rem;
+  }
+  .progress-bar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      background-color: green !important;
+      transition: width .6s ease;
+  }
+  .progress-chart{
+    padding: 10px 8px;
+  }
+  .progress-top{
+    padding-bottom: 5px;
+  }
+  .progress-bottom{
+    padding-top: 7px;
+  }
+  
+  @media (min-width: 767px) {
+    .second-item-right{
+           text-align: end !important;
+    }
+  }
+  @media (min-width: 500px) {
+    .second-item-right{
+           text-align: end !important;
+    }
+  }
+  @media (min-width: 400px) {
+    .second-item-right{
+           text-align: end !important;
+    }
+  }
+  /*portfoilio css starts here*/
+  .portfolio-first{
+    font-size: 10px;
+    color: #6c757d;
+  }
+  .portfolio-second{
+    color: #6c757d;
+  }
+  .first-1{
+    padding-top: 42px;
+  }
+  .first-1 img{
+    margin-right: 10px;
+  }
+  .first-2 p{
+    text-align: right !important;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .first-4{
+    padding-top: 20px;
+  }
+  .first-4 > div{
+    padding-bottom: 3px;
+    font-weight: bold;
+  }
+  .four-item span:first-child{
+    margin-right: 35px;
+  }
+  .three-top a{
+    font-size: 10px;
+    background: #0052FF;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white !important;
+  
+  }
+  
+  
+  .second-item-left i {
+      font-size: 35px;
+      padding: 10px 0px;
+      color: #0052ff;
+  }
+  .second-item-right{
+    padding: 0px 10px 0px 10px;
+    margin: auto 0;
+    text-align: center;
+  }
+  .second-item-right span{
+    font-size: 10px;
+  }
+  .three-bottom{
+    padding-top: 20px;
+  }
+
+  
+  /*Watchlist css start here*/
+  
+  .card-body{
+    font-size: 10px !important;
+    padding: 0px !important;
+    padding: 0px 12px !important;
+  }
+  
+  .dropdown-toggle::after {
+      display: none !important;
+      margin-left: 0.255em;
+      vertical-align: 0.255em;
+      content: "";
+      border-top: 0.3em solid;
+      border-right: 0.3em solid transparent;
+      border-bottom: 0;
+      border-left: 0.3em solid transparent;
+  }
+  
+  .alert-hero span{
+    background: none !important;
+  }
+  .avatar-title img{
+    margin-top: 35px;
+  }
+  .avatar-title{
+    background: none !important;
+  }
+  .add-card{
+    box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+    height: 158px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+    padding-top: 40px;
+  
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+      color: #fff !important;
+      background-color: #0d6efd;
+  }
+  .alert-table-right{
+    margin-top: 20px;
+  }
+  .watch-right img{
+    margin-bottom: 5px;
+  }
+  
+  .watch-right-rate{
+    color: #6C757D;
+  }
+  .add-sku{
+    box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+    height: auto;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border: 1px solid rgba(0,0,0,.125);
+  }
+  
+  
+  /*.table css start.............................*/
+  
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+  }
+  
+  .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 1rem;
+      border-radius: 5px !important;
+  }
+  
+  .card-body {
+      font-size: 10px !important;
+  }
+  
+  .table-header-right{
+    display: flex;
+    justify-content: right !important;
+    color: #6C757D !important;
+  }
+  .table-header-left span{
+    padding-left: 24px;
+  }
+  .table-header-right > div{
+    background: #F2F2F2;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  .table>:not(:last-child)>:last-child>* {
+      border-bottom-color: currentColor;
+  }
+  .table>:not(caption)>*>* {
+      padding: 0.5rem 0.5rem;
+      background-color: var(--bs-table-bg);
+      border-bottom-width: 1px;
+      box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  }
+  
+  .portfolio-body {
+    border-radius: 5px !important;
+  }
+  .card {
+      border: none;
+      box-shadow:  0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+      margin-bottom: 24px;
+  }
+  .shadowLight {
+    border-radius: 5px !important;
+    box-shadow: 10px 6px 22px 6px rgb(136 137 139 / 15%) !important;
+  }
+  
+  /*top ranked table css start here......................................*/
+  
+  .product-chart img{
+    width: 80px;
+    height: 30px;
+    padding-top: 0% !important;
+  }
+  
+  /*Top ranked categories css start here*/
+  .top-ranked{
+    color: #6c757d !important;
+  }
+  
+  .rank-table-extra{
+    text-align: center;
+    padding-top: 1% !important;
+    color: #6c757d;
+  
+  }
+  
+  /*............................*/
+  
+  /* footer css start here.................*/
+  
+  .footer-main{
+    background: white !important;
+    color: #6c757d !important;
+    height: auto;
+    box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+  }
+
+  
+  .foot-menu a{
+    color: #6c757d !important;
+    font-size: 16px;
+  }
+  .foot-menu a:hover{
+    color: #0052FF !important;
+  }
+  .footer-padding{
+    padding: 0px 12px;
+  }
+  
+  .trBackgroundColor {
+    background-color: #f2f2f2;
+    border: 1px solid #e0dfdf;
+  }
+  
+  /*footer css end here*/
+
+table tbody td {
+  font-size: 12px !important;
+}
+table thead th {
+  font-size: 10px !important;
+  font-weight: bold !important;
+  padding-left: unset !important;
+  padding-right: unset !important;
+  color: gray !important;
+}
+
+  @media (max-width: 479px) and (min-width: 320px) {
+
+
+    .top-ranked-table {
+      font-size: 12px !important;
+      padding: unset !important;
+    }
+   }
+
+   @media (max-width: 991px) {
+    .responsive > thead th {
+      display: none;
+    }
+    .responsive > tbody td,
+    .responsive > tbody th {
+      display: block;
+    }
+    .responsive > tbody > tr:nth-child(even) td,
+    .responsive > tbody > tr:nth-child(even) th {
+      background-color: #eee;
+    }
+    [row-header] {
+      position: relative;
+      width: 50%;
+      vertical-align: middle;
+    }
+    [row-header]:before {
+      content: attr(row-header);
+      display: inline-block;
+      vertical-align: middle;
+      text-align: left;
+      width: 50%;
+      padding-right:30px;
+    }
+  }

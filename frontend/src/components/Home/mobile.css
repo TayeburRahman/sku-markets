@@ -1,0 +1,180 @@
+@media screen and (max-width: 500px) {
+  .section-padding {
+    padding: 80px 0px;
+  }
+  .section-heading h3 {
+    font-size: 22px !important;
+  }
+  .section-heading p {
+    font-size: 15px;
+  }
+  .price-p {
+    margin-left: 0px;
+  }
+
+  /*hero section*/
+  .hero {
+    margin-bottom: 20px !important;
+    height: auto;
+  }
+  .hero-left h1 {
+    font-size: 25px;
+    margin: 0 auto;
+  }
+  .hero-left p {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .signup {
+    margin-right: 0px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero-left h2,
+  h5,
+  h6,
+  h1 {
+    text-align: center;
+  }
+  .hero-left p {
+    font-size: 16px;
+    margin: 0 auto;
+    color: #6c757d !important;
+  }
+  .hero-left button {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin: 0 auto;
+  }
+
+  .hero-right {
+    text-align: center;
+  }
+  .hero-right img:nth-child(2) {
+    margin-right: 10px;
+  }
+  .hero-right img:nth-child(3) {
+    margin-left: 10px;
+  }
+
+  /*analysis*/
+  .sku-left h3 {
+    text-align: center;
+  }
+  .sku-left p {
+    color: #6c757d !important;
+    text-align: center;
+  }
+  .analysis button {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  /*marquee*/
+  .marquee-area {
+    margin: 20px 0px !important;
+  }
+
+  /*work section*/
+  .work {
+    background: #fff;
+    color: #000;
+    margin-top: -40px;
+  }
+  .work-top {
+    margin: 0px 0px 40px 0px;
+  }
+  .work-items {
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  /*solution section*/
+  .solution {
+    margin-top: -40px;
+  }
+  .solution-items {
+    height: 270px;
+    margin-bottom: 20px;
+  }
+  .solution-bottom {
+    margin-top: 0px !important;
+  }
+
+  .faq-top p {
+    padding: 0px 20px;
+  }
+  /*footer*/
+  /*footer*/
+  .footer-1 {
+    text-align: center !important;
+    margin: 0 auto !important;
+    margin-left: 20px !important;
+  }
+  .foot-menu {
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .footer-mobaile div {
+    padding-bottom: 10px;
+  }
+  .footer-mobile-logo {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  /*FAQ*/
+  .faq-item {
+    min-width: 370px;
+  }
+  .faq-item-bottom {
+    width: 100%;
+    font-size: 14px;
+  }
+  .faq-item-top {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  /*pricing*/
+  .pricingTable-header p {
+    color: #6c757d !important;
+  }
+
+  @media screen and (max-width: 990px) {
+    .pricingTable {
+      margin: 0 0 20px;
+    }
+  }
+}
+.faq-item-top {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin-bottom: 20px !important;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+  border: unset !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin-bottom: 20px !important;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+  border: none !important;
+  border: unset !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+  margin-bottom: 20px !important;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%) !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root  {
+  margin-bottom: 20px !important;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%) !important;
+  border-radius: 4px !important;
+  border: unset !important;
+}
+
+.HomeFooterlink {
+  color: black !important;
+}
