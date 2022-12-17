@@ -1,0 +1,35 @@
+table tbody td {
+    font-size: 12px !important;
+ 
+  }
+  table thead th {
+    font-size: 10px !important;
+    font-weight: bold !important;
+    padding-left: unset !important;
+    padding-right: unset !important;
+    color: #697592 !important;
+  }
+.barandCatName {
+    font-weight: 600 !important;
+}
+.heightTD {
+  height: 62px;
+}
+/* .trBackgroundColor {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #edecec;
+} */
+th {
+  background: white !important;
+  
+}
+/* tr:nth-child(odd)
+ {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #edecec;
+} */
+@media (min-width: 767px) {
+  .second-item-right{
+         text-align: end !important;
+  }
+}

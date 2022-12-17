@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  body{
+    font-family: 'Lucida Console';
+    margin: 0 auto !important;
+  }
+  img{
+    vertical-align: middle;
+    text-align: center;
+  }
+  /* body{
+    font-family: Nunito,sans-serif !important;
+    background: #fff;
+    color: black !important;
+  } */
+  h1, h2, h3, h4, h5, h6, a, p{
+    font-family: Nunito,sans-serif !important;
+  }
+  
+  .section-padding{
+    padding: 50px 0px;
+  }
+
+  
+  
+  /* payment method button css end here */
+  
+  .white-mode {
+      text-decoration: none;
+      padding: 17px 40px;
+      background-color: yellow;
+      border-radius: 3px;
+      color: black;
+      transition: .35s ease-in-out;
+      position: absolute;
+      left: 15px;
+      bottom: 15px
+  }
+  
+  .pricingTable {
+      text-align: center;
+      /* background: #fff; */
+      margin: 0 10px;
+      box-shadow: 0 0 10px #ababab;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      color: #cad0de;
+      transform: scale(1);
+      transition: all .5s ease 0s
+  }
+  
+  .pricingTable:hover {
+      transform: scale(1.05);
+      z-index: 1
+  }
+  
+  .pricingTable {
+      padding: 20px 0;
+      /*
+      background: #f5f6f9;
+      border-radius: 10px 10px 50% 50%;
+      transition: all .5s ease 0s*/
+  }
+  /*
+  .pricingTable:hover .pricingTable-header {
+      background: #ff9624
+  }
+  */
+  .pricingTable-header h3{
+    font-weight: bold !important;
+    color: black !important;
+  }
+  .pricingTable .pricingTable-header i {
+      font-size: 50px;
+      color: #858c9a;
+      transition: all .5s ease 0s
+  }
+  .price-value h6{
+    padding-top: 10px;
+  }
+  
+  .pricingTable-header p{
+    color: #000 !important;
+    font-size: 10px !important;
+  }
+  .pricingTable-header h6{
+    color: black !important;
+    padding-top: 25px;
+    font-size: 10px !important;
+  
+  }
+  .pricingTable .price-value {
+      font-size: 10px !important;
+      font-weight: bold;
+      color: black !important;
+      transition: all .5s ease 0s
+  }
+  
+  .pricingTable .month {
+      display: block;
+      font-size: 12px;
+      color: #6c757d !important;
+  }
+  
+  .pricingTable:hover .month,
+  .pricingTable:hover .price-value,
+  .pricingTable:hover .pricingTable-header i {
+      color: #fff
+  }
+  
+  .pricingTable .heading {
+      font-size: 12px !important;
+      color: #ff9624;
+      text-transform: uppercase
+  }
+  
+  .pricingTable .pricing-content ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 0px;
+  }
+  .pricing-content ul{
+    padding-top: 14px;
+  }
+  
+  .pricingTable .pricing-content ul li {
+      color: #6c757d !important;
+  }
+  .monthly-btn{
+    padding: 6px 0px;
+    background: #0052ff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .pricingTable-signup{
+    padding-top: 15px;
+  }
+  .price-value{
+    padding-top: 10px !important;
+  }
+  .pricingTable .pricingTable-signup a {
+      display: inline-block;
+      color: white !important;
+      padding: 5px 33px;
+      border-radius: 20px;
+      background: #6C757D;
+      text-transform: uppercase;
+      transition: all .3s ease 0s;
+      font-size: 10px !important;
+  }
+  
+  
+  .pricingTable.blue .heading,
+  .pricingTable.blue .price-value {
+      color: #4b64ff
+  }
+  
+  .pricingTable.red .heading,
+  .pricingTable.red .price-value {
+      color: #ff4b4b
+  }
+  
+  .pricingTable.green .heading,
+  .pricingTable.green .price-value {
+      color: #40c952
+  }
+  
+  .pricingTable-signup{
+    padding-top: 10px;
+  }
+  .pricingTable-signup a:hover{
+    background: #0052ff !important;
+    color: #fff !important;
+  }
+  
+  
+  .pricing-content ul li{
+    font-size: 11px;
+  }
+  .pricingTable p{
+    margin-bottom: 0px;
+    color: #6C757D !important;
+    padding: 22px 0;
+  }
+  
+  
+  
+  .pricingTable.blue:hover .price-value,
+  .pricingTable.green:hover .price-value,
+  .pricingTable.red:hover .price-value {
+      color: #fff
+  }
+  
+  @media screen and (max-width:990px) {
+      .pricingTable {
+          margin: 0 0 20px
+      }
+  }
+  
+  
+  
+  
+  
+  /*contact*/
+  .text-muted{
+    margin-top: 20px !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*   contact css start here...........*/
+  .contact{
+    padding-bottom: 30px;
+    padding-top: 0px;
+    color: #6c757d !important;
+  }
+  .contact a {
+    color: #6c757d !important;
+  }
+  .contact-icon a{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-area{
+    padding: 40px 0px !important;
+  }
+  .c-icon{
+    font-size: 30px;
+    color: #0052ff;
+  }
+  
+  
+  /* footer css start here.................*/
+  .footer-main{
+    background: #F8F9FA !important;
+    color: #6c757d !important;
+  }
+  
+  .footer-logo img{
+    width: 150px !important;
+    height: 50px !important;
+  }
+  .footer-menu li{
+    margin-left: 10px !important;
+  }
+  .footer-menubar a{
+    margin-right: 10px !important;
+  }
+  .footer-area{
+    margin-top: -120px;
+  }
+  .social-icon i{
+    width: 15px;
+    height: 15px;
+  }
+  .foot-menu a{
+    color: black !important;
+  }
+  .foot-menu a:hover{
+    color: #0052ff !important;
+  }
+  
+  
+  
+  .form-check-input {
+    width: 1.112em;
+    height: 1.112em;
+    margin-top: 0.194em;
+    vertical-align: top;
+    background-color: var(--ct-form-check-input-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: var(--ct-form-check-input-border);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    -webkit-transition: background-color .15s ease-in-out,background-position .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out,background-position .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out,background-position .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out,background-position .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.form-check-input:checked {
+    background-color: #0052ff !important;
+    /* border-color: ; */
+}
+.card {
+    --ct-card-border-color: #f8f9fa !important;
+    --ct-card-box-shadow: var(--ct-box-shadow) !important;
+    --ct-card-cap-bg: #f8f9fa !important;
+    --ct-card-bg: #f8f9fa !important;
+    border: none !important;
+
+}
+
+.card-body2 {
+    background: #f8f9fa !important;
+}
+.card-headerlogin {
+    background: #f8f9fa !important;
+ 
+}
+.cardlogin {
+    box-shadow: 10px 6px 22px 6px rgb(248 249 250) !important;
+}
